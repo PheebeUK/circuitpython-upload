@@ -172,7 +172,7 @@ config = {
     'WOeventimestamp': True,
     'hostname': '',
     'password':'',
-    'name': f'{sys.argv[0]}'
+    'name': f'{os.path.basename(sys.argv[0])}'
 }
 
 if len(sys.argv) != 3:
